@@ -1,0 +1,14 @@
+import stylish from './stylish.js'
+import plain from './plain.js'
+
+const formatters = {
+  stylish,
+  plain,
+  json: JSON.stringify,
+}
+
+export default (formatName = 'stylish') => {
+  const formatter = formatters[formatName]
+  if (!formatter) throw new Error(`Unknown format: ${formatName}`)
+  return formatter
+}
