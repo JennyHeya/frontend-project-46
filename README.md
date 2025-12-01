@@ -8,3 +8,6 @@
 2. запись демо 6-го шага: https://asciinema.org/a/tbu9cdKH60HCiRkdJ0jHUmawd
 
 3. демо 8 шага: https://asciinema.org/a/I7I2bDB6VMtfSFQF3gAGX6Z9F
+
+4. last step: https://asciinema.org/a/OvaPFgIFWkMD4zj9KyoMooHT3
+
