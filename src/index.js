@@ -1,6 +1,5 @@
 import fs from 'fs'
 import path from 'path'
-import _ from 'lodash'
 import parse from './parsers.js'
 import buildAst from './ast.js'
 import getFormatter from './formatters/index.js'

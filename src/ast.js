@@ -14,7 +14,9 @@ const buildAst = (data1, data2) => {
       return { key, children: buildAst(data1[key], data2[key]), type: 'nested' }
     }
     if (!_.isEqual(data1[key], data2[key])) {
-      return { key, oldValue: data1[key], newValue: data2[key], type: 'changed' }
+      return {
+        key, oldValue: data1[key], newValue: data2[key], type: 'changed',
+      }
     }
     return { key, value: data1[key], type: 'unchanged' }
   })
