@@ -6,3 +6,5 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JennyHeya_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JennyHeya_frontend-project-46)
 
 2. запись демо 6-го шага: https://asciinema.org/a/tbu9cdKH60HCiRkdJ0jHUmawd
+
+3. демо 8 шага: https://asciinema.org/a/I7I2bDB6VMtfSFQF3gAGX6Z9F
